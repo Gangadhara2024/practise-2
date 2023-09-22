@@ -1,0 +1,43 @@
+.card{
+    background-color: bisque;
+    color:white;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data{
+    height:400px;
+    width:300px;
+    background-color: brown;
+    border-radius: 8px;
+    text-align:center;
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.data>h1,.card>p{
+    padding:20px;
+}
+.foot{
+    padding:10px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.foot>button{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-size:15px;
+    font-weight: 700;
+}
